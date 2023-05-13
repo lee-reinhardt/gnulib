@@ -200,7 +200,7 @@ npgettext_aux (const char *domain,
 #endif
 
 #if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS
-#include <stdlib.h>
+#include <stdlib.in.h>
 #endif
 
 #define pgettext_expr(Msgctxt, Msgid) \
